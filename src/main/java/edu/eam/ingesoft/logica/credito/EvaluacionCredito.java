@@ -53,7 +53,7 @@ public class EvaluacionCredito {
      * @param plazoMeses       Plazo del crédito en meses
      * @return Valor de la cuota mensual en pesos
      */
-    public double calcularCuotaMensual(double tasaNominalAnual, int plazoMeses) {
+    public double calcularCuotaMensual (double tasaNominalAnual, int plazoMeses) {
         double tasaMensual = 0.0;
         double cuota = 0.0;
         if (tasaNominalAnual > 0) {
